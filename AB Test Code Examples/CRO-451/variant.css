@@ -1,0 +1,189 @@
+@media (min-width: 1024px) {
+    html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video {
+        min-width: 680px;
+        max-width: 1100px;
+        width: 100%;
+        height: 100%;
+        min-height: 514px;
+        max-height: 600px;
+    }
+
+    html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+    }
+}
+
+    html body.cro-t-02-rollBack-video img.cro-t-mobile {
+        display: none;
+    }
+
+html body.cro-t-02-rollBack-video section.has_eae_slider.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.cro-rollback-videoBanner {
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 120px 0 !important;
+}
+
+html body.cro-t-02-rollBack-video .cro-rollback-videoBanner .elementor-widget-wrap.elementor-element-populated {
+    padding: 0;
+}
+
+html body.cro-t-02-rollBack-video section.has_eae_slider.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.cro-rollback-videoBanner {
+    /* margin-top: 90px; */
+    margin-bottom: 0;
+    padding: 0;
+    background: #1E1A34;
+}
+
+html body.cro-t-02-rollBack-video .cro-rollback-videoBanner .elementor-widget-heading {
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+html body.cro-t-02-rollBack-video .cro-rollback-videoBanner .elementor-widget-heading h2 {
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+html body.cro-t-02-rollBack-video .cro-rollback-videoBanner .elementor-widget-heading h3 {
+    color: #00a9e0;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+html body.cro-t-02-rollBack-video .cro-rollback-videoBanner section {
+    margin-top: 60px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+html body.cro-t-02-rollBack-video .cro-rollback-videoBanner section iframe {
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video {
+    cursor: pointer;
+}
+
+html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video.cro-t-hideImg img {
+    display: none;
+}
+
+html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video:not(.cro-t-hideImg) .croVideo {
+    visibility: hidden;
+}
+
+html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video:not(.cro-t-hideImg) .fluid-width-video-wrapper {
+    padding-top: 0 !important;
+}
+/* 
+html body.cro-t-02-rollBack-video img.cro-rollback-videoBanner-playBtn {
+    z-index: 2;
+    border-radius: 50%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    margin: auto !important;
+    width: 130px !important;
+    height: 130px !important;
+} */
+
+html body.cro-t-02-rollBack-video img.cro-rollback-videoBanner-playBtn {
+    z-index: 2;
+    border-radius: 50%;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    margin: auto !important;
+    width: 130px !important;
+    height: 130px !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video img.cro-rollback-videoBanner-playBtn:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video:hover img.cro-rollback-videoBanner-playBtn {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+html body.cro-t-02-rollBack-video .cro-t-rollBack-courses {
+    margin-bottom: 80px !important;
+}
+
+.cro-rollback-videoBanner + section {
+    margin-top: 0 !important;
+}
+
+@media (max-width: 767px) {
+    html body.cro-t-02-rollBack-video .cro-t-rollBack-courses {
+        margin-bottom: 70px !important;
+    }
+
+    html body.cro-t-02-rollBack-video img.cro-t-mobile {
+        display: block;
+    }
+    html body.cro-t-02-rollBack-video img.cro-rollback-videoBanner-playBtn {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    html body.cro-t-02-rollBack-video img.attachment-large.size-large.entered.litespeed-loaded.cro-t-desktop {
+        display: none;
+    }
+
+    html body.cro-t-02-rollBack-video section.has_eae_slider.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.cro-rollback-videoBanner {
+        padding: 70px 20px !important;
+    }
+
+    html body.cro-t-02-rollBack-video .cro-rollback-videoBanner section {
+        margin-top: 50px;
+    }
+
+    html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video {
+        min-width: 320px;
+        max-width: 600px;
+        width: 100%;
+        height: 100%;
+        min-height: 235px;
+        max-height: 300px;
+    }
+
+    html body.cro-t-02-rollBack-video .elementor-widget-container.cro-t-rollBack-Video img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    html body.cro-t-02-rollBack-video .cro-rollback-videoBanner .elementor-widget-heading h2 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    html body.cro-t-02-rollBack-video .cro-rollback-videoBanner .elementor-widget-heading h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
