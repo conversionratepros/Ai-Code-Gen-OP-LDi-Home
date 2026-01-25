@@ -1,0 +1,43 @@
+html body.croki121 .croki121-hero-Section h1{
+    display: none;
+}
+
+html body.croki121 .croki121-new-header-text {
+    color: var(--LDi-dark_blue, #1E1A34);
+    font-family: "Poppins", Sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+html body.croki121 .croki121-new-header-text span {
+    font-weight: 600;
+}
+
+html body.croki121 .croki121-hero-Section img:not(.cro-image){
+    display: none;
+}
+
+html body.croki121 .croki122-hero-banner-image {
+    display: block !important;
+}
+
+html body.croki121 .croki122-hero-banner-image.cro-desktop {
+    width: 100%;
+    max-width: 470px;
+    display: inline-block !important;
+    vertical-align: middle;
+    text-align: right;
+}
+
+@media (max-width:767px) {
+    html body.croki121 .croki121-new-header-text {
+    font-size: 30px;
+    line-height: 36px;
+    }
+
+    html body.croki121 .croki121-hero-Section + section img:not(.cro-image){
+        display: none;
+    }
+}
