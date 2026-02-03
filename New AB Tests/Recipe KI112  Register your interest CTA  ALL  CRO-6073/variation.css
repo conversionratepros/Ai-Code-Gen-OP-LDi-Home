@@ -1,0 +1,725 @@
+/* ----------------MODAL------------------- */
+html body.cre-t-112.cre-t-112-hide .cre-t-112-lightBox {
+    display: none;
+}
+
+html body.cre-t-112 .cre-t-112-lightBox {
+    display: block;
+}
+
+html body.cre-t-112 .cre-t-112-lightBox {
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999992;
+    /* padding: 10px; */
+    overflow-y: auto;
+    display: flex;
+}
+
+html body.cre-t-112 .cre-t-112-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.8;
+    background: rgb(0, 0, 0);
+    height: 1000px;
+    min-height: 100%;
+}
+
+html body.cre-t-112 .cre-t-112-modal {
+    border-radius: 6px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    /* padding: 0px; */
+    width: 100%;
+    max-width: 780px;
+    text-align: left;
+    overflow: visible;
+    box-sizing: border-box !important;
+    margin: auto !important;
+    top: 40px;
+}
+
+html body.cre-t-112:not(.cre-t-112-hide) {
+    overflow: hidden;
+    height: auto !important;
+}
+
+html body.cre-t-112 .cre-t-112-card-wrapper {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+.cre-t-112-modalBody h2 {
+    color: #1E1A34;
+    font-family: 'ABC Social';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    margin-bottom: 32px;
+    display: none;
+}
+
+.convert-gf-form .cgf-btn:hover {
+    opacity: 50%;
+    background-color: #00A9E0;
+}
+
+.cre-t-112-input {
+    width: 100%;
+    /* padding: 10px 12px; */
+    /* margin: 8px auto; */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: block;
+}
+
+.cre-t-112-radio-group {
+    /* padding: 0 20px 20px; */
+}
+
+.cre-t-112-radio-group p {
+    /* margin-bottom: 8px; */
+    font-weight: bold;
+    color: #1E1A34;
+    font-family: 'ABC Social';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 0 10px;
+}
+
+.cre-t-112-radio-group label {
+    /* display: block; */
+    /* margin-bottom: 6px; */
+    /* font-size: 0.95rem; */
+    margin: 0;
+    cursor: pointer;
+    /* display: block; */
+    /* margin-bottom: 6px; */
+    /* font-size: 0.95rem; */
+    margin: 0;
+    cursor: pointer;
+    color: #1E1A34;
+    font-family: 'ABC Social';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.cre-t-112-radio-group .cre-t-112-radio-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 18px;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.cre-t-112-radio-group label input {
+    color: #1E1A34;
+
+    /* Paragraph 1 */
+    font-family: 'ABC Social';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 144.444% */
+}
+
+.cre-t-112-submit {
+    display: block;
+    width: 100%;
+    max-width: 128px;
+    /* margin: 10px auto 20px; */
+    /* padding: 12px; */
+    /* background: #0ea5e9; */
+    /* color: white; */
+    /* font-weight: bold; */
+    border: none;
+    /* border-radius: 8px; */
+    cursor: pointer;
+    transition: background 0.2s ease;
+    border-radius: 60px;
+    background: var(--LDi-sky_blue, #00A9E0);
+    padding: 30px;
+    color: var(--LDi-white, #FFF);
+    font-family: 'ABC Social';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.cre-t-112-submit:hover {
+    background: #0284c7;
+}
+
+.cre-t-112-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cre-t-112-modalBody {
+    padding: 40px;
+}
+
+.cre-t-112-modalBody form {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .cre-t-112-modal {
+        max-width: 95%;
+        top: 20px;
+    }
+}
+
+/* ----------------MODAL------------------- */
+
+
+
+
+
+
+
+/* ----------------BTN------------------- */
+
+html body.cro-ldi-ki112 .cre-ki-112-topBanner .elementor-button-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+html body.cro-ldi-ki112 .cre-ki-112-topBanner .cre-t-112-registerBtn a {
+    border: 1px solid;
+    text-align: center;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+}
+
+/* ----------------BTN------------------- */
+
+
+
+/* ----------------Updated Code------------------- */
+
+html body.cro-ldi-ki112 .cro-t-112-heroBanner .elementor-button-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+html body.cro-ldi-ki112 .cro-t-112-heroBanner .cro-t-112-prospectus {
+    display: none;
+}
+
+html body.cro-ldi-ki112 .cre-t-112-modalBody .cre-t-112formInput label {
+    margin-bottom: 5px;
+    color: #1E1A34;
+    font-family: 'ABC Social';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+html body.cro-ldi-ki112 .cre-t-112-modalBody .cre-t-112formInput.cre-t-112-lastName {
+    padding: 30px 0;
+}
+
+html body.cro-ldi-ki112 .cre-t-112-registerBtn a.elementor-button {
+    background-color: #00000000 !important;
+    font-family: 'ABC Social' !important;
+    color: #2B5E7D !important;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #2B5E7D80;
+    border-radius: 0px 0px 0px 0px;
+    padding: 12px 24px 12px 24px;
+}
+
+.cro_form_close_btn {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 60px;
+    background: var(--LDi-sky_blue, #00A9E0);
+    max-width: 112px;
+    cursor: pointer;
+    display: none;
+}
+
+.cro_form_close_btn span {
+    color: var(--LDi-white, #FFF);
+    /* H3 */
+    font-family: inherit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 144.444% */
+}
+
+.cre-t-112-modal.cro_hideFields form>div:not(.cgf-msg),
+.cre-t-112-modal.cro_hideFields form button {
+    display: none;
+}
+
+.cre-t-112-modal.cro_hideFields .cro_form_close_btn {
+    display: block;
+    margin-top: 24px;
+}
+
+.cre-t-112-modal.cro_hideFields .cro_from_wrapper .cgf-radios {
+    display: none;
+}
+
+button.cgf-btn {
+    color: var(--LDi-white, #FFF);
+    font-family: inherit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    /* 144.444% */
+    display: block;
+    padding: 20px 30px !important;
+    /* max-width: 128px; */
+    border-radius: 0 !important;
+    background: var(--LDi-sky_blue, #00A9E0);
+    margin-top: 15px;
+    padding: 12px 24px 12px 24px !important;
+    background-color: #2B5E7D !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cro_form_hidden {
+    display: none !important;
+}
+
+
+/* ----------New-------- */
+
+.convert-gf-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 720px
+}
+
+
+.convert-gf-form .cgf-row {
+    display: grid;
+    gap: 6px;
+    grid-column: 1 / -1
+}
+
+
+.convert-gf-form .half {
+    grid-column: span 1
+}
+
+
+.convert-gf-form label {
+    font-size: 14px
+}
+
+.convert-gf-form .cgf-row>label:not(.cgf-radio) {
+    color: #1E1A34;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'ABC Social';
+}
+
+.cgf-row.cgf-radios legend {
+    color: #1E1A34;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'ABC Social';
+    margin-bottom: 8px
+}
+
+.convert-gf-form input[type="text"],
+.convert-gf-form input[type="email"],
+.convert-gf-form textarea {
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid var(--LDi-dark_blue, #1E1A34);
+    background: var(--LDi-white, #FFF);
+    border-radius: inherit;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #2B5E7D80;
+}
+
+
+
+.convert-gf-form textarea {
+    min-height: 90px
+}
+
+
+.convert-gf-form .cgf-radios {
+    grid-column: 1 / -1;
+    margin: 4px 0;
+    border: 0;
+    padding: 0
+}
+
+
+.convert-gf-form .cgf-radio {
+    display: block;
+    margin: 6px 0;
+    color: #1E1A34;
+    font-family: 'ABC Social';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+
+.convert-gf-form .cgf-btn {
+    grid-column: 1 / -1;
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer
+}
+
+
+.convert-gf-form .cgf-btn[disabled] {
+    opacity: .65;
+    cursor: progress
+}
+
+
+.convert-gf-form .cgf-msg {
+    grid-column: 1 / -1;
+    margin-top: 6px;
+    font-weight: 700;
+    color: #2BA200 !important;
+    font-size: 18px;
+}
+
+
+/* === Custom radio button style === */
+.convert-gf-form .cgf-radio {
+    position: relative;
+    /* padding-left: 28px; */
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 1.6;
+    user-select: none;
+}
+
+/* Hide default radio input */
+.convert-gf-form .cgf-radio input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Custom circle before label */
+.convert-gf-form .cgf-radio span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    background: #fff;
+    transition: all 0.2s ease;
+    border-color: #2B5E7D80;
+    border-width: 2px;
+}
+
+/* Inner dot on checked */
+.convert-gf-form .cgf-radio input[type="radio"]:checked+span::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    right: 0px;
+    /* margin: auto; */
+    top: 7px;
+    width: 12px;
+    height: 12px;
+    background: var(--LDi-dark_blue, #1E1A34);
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    background: #2B5E7D;
+}
+
+/* Label text alignment */
+.convert-gf-form .cgf-radio span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    color: #111;
+    padding-left: 30px;
+    /* font-weight: 400; */
+}
+
+/* Hover effect */
+.convert-gf-form .cgf-radio:hover::before {
+    border-color: #1a3cff;
+}
+
+
+[cro-datapath="/dental-courses/"] .convert-gf-form .cgf-row.cgf-radios>label:last-child {
+    display: none;
+}
+
+html body.cro-ldi-ki112 .convert-gf-form input[type="text"]:focus,
+html body.cro-ldi-ki112 .convert-gf-form input[type="email"]:focus,
+html body.cro-ldi-ki112 .convert-gf-form textarea:focus {
+    box-shadow: none;
+}
+
+
+/* ----Update---- */
+html body.cro-ldi-ki112 span.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html body.cro-ldi-ki112 span.btn-icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+
+html body.cro-ldi-ki112 .convert-gf-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    column-gap: 30px;
+}
+
+/* Full width rows */
+html body.cro-ldi-ki112 .convert-gf-form .cgf-row:not(.half),
+html body.cro-ldi-ki112 .convert-gf-form fieldset,
+html body.cro-ldi-ki112 .convert-gf-form .cro-button-parent,
+html body.cro-ldi-ki112 .convert-gf-form .cgf-msg {
+    grid-column: 1 / -1;
+}
+
+html body.cro-ldi-ki112 .cro-button-parent .cgf-btn:hover {
+    background-color: #007EA8 !important;
+    opacity: 100%;
+}
+
+
+
+@media(max-width:640px) {
+    .convert-gf-form {
+        grid-template-columns: 1fr
+    }
+
+    .convert-gf-form .half {
+        grid-column: 1 / -1
+    }
+}
+
+
+@media (min-width: 1024px) {
+    html body.cre-t-112 .cre-t-112-modal {
+        max-width: 889px;
+    }
+}
+
+@media (min-width: 768px) {
+    html body.cre-t-112 .cre-t-112-modal {
+        max-width: 700px;
+        top: 0;
+    }
+
+    .cre-ki-112-topBanner .e-child.cre-ki-112-e-child {
+        gap: 0;
+    }
+}
+
+[cro-datapath*="/orthodontics-dentofacial-orthopaedics"] body.cro-ldi-ki112 .cre-t-112-registerBtn a.elementor-button .elementor-button-content-wrapper,
+[cro-datapath*="/orthodontics-dentofacial-orthopaedics"] body.cro-ldi-ki112 .cro-t-112-heroBanner .elementor-button-wrapper {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 767px) {
+    button.cgf-btn {
+        width: 100%;
+        max-width: none;
+    }
+
+    html body.cro-ldi-ki112 .cro-t-112-heroBanner .elementor-button-wrapper {
+        flex-direction: column;
+    }
+
+
+    [cro-datapath*="/orthodontics-dentofacial-orthopaedics"] body.cro-ldi-ki112 .cro-t-112-heroBanner .elementor-button-wrapper {
+        flex-direction: column-reverse !important;
+    }
+
+    html body.cro-ldi-ki112 .cre-t-112-registerBtn {
+        width: 100%;
+    }
+
+    html body.cre-t-112 .cre-t-112-modal {
+        width: 90%;
+        /* top: 0; */
+    }
+
+    .cre-t-112-modalBody {
+        padding: 40px 16px 24px 16px;
+    }
+
+    .cre-t-112-submit {
+        max-width: 100%;
+    }
+
+    .cre-t-112-modalBody h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    html body.cro-ldi-ki112 .cre-t-112-modalBody .cre-t-112formInput label {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .cre-t-112-radio-group label {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .convert-gf-form .cgf-row>label:not(.cgf-radio) {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .cgf-row.cgf-radios legend {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .convert-gf-form .cgf-radio span {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .convert-gf-form .cgf-msg {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    html body.cro-ldi-ki112 .cre-t-112-registerBtn .elementor-button-text {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+}
+
+
+
+/* ----------------Updated Code------------------- */
+
+[cro-datapath*="/dental-implantology-oral-surgery"] body.cro-ldi-ki112 .cre-t-112-registerBtn a.elementor-button,
+[cro-datapath*="/aesthetic-restorative-dentistry"] body.cro-ldi-ki112 .cre-t-112-registerBtn a.elementor-button,
+[cro-datapath*="/orthodontics-dentofacial-orthopaedics"] body.cro-ldi-ki112 .cre-t-112-registerBtn a.elementor-button {
+    background-color: #2B5E7D !important;
+    color: #FFFFFF !important;
+}
+
+[cro-datapath*="/dental-implantology-oral-surgery"] body.cro-ldi-ki112 .cre-t-112-registerBtn a.elementor-button:hover,
+[cro-datapath*="/aesthetic-restorative-dentistry"] body.cro-ldi-ki112 .cre-t-112-registerBtn a.elementor-button:hover,
+[cro-datapath*="/orthodontics-dentofacial-orthopaedics"] body.cro-ldi-ki112 .cre-t-112-registerBtn a.elementor-button:hover {
+    background-color: #007EA8 !important;
+    border-color: #007EA8 !important;
+}
+
+html[cro-datapath="/"] .cre-t-112-registerBtn-inner .elementor-button-icon,
+html[cro-datapath*="/dental-courses/"] .cre-t-112-registerBtn-inner .elementor-button-icon {
+    display: none;
+}
+
+/* html[cro-datapath*="/aesthetic-restorative-dentistry/"] .cre-ki-112-topBanner .elementor-button-wrapper [href*="/aesthetic-and-restorative-dentistry-programme-summary"],
+html[cro-datapath*="/dental-implantology-oral-surgery/"] .cre-ki-112-topBanner .elementor-button-wrapper [href*="/diploma-in-dental-implantology-oral-surgery-programme-summary"],
+html[cro-datapath*="/orthodontics-dentofacial-orthopaedics/"] .cre-ki-112-topBanner .elementor-button-wrapper [href*="/ortho-prospectus-download/"] {
+    display: none;
+} */
+
+html[cro-datapath*="/orthodontics-dentofacial-orthopaedics/"] .cre-ki-112-topBanner .elementor-widget-button:nth-child(1),
+html[cro-datapath*="/dental-implantology-oral-surgery/"] .cre-ki-112-topBanner .elementor-widget-button:nth-child(1) .elementor-button-wrapper>a,
+html[cro-datapath*="/aesthetic-restorative-dentistry/"] .cre-ki-112-topBanner .elementor-button-wrapper [href*="/aesthetic-and-restorative-dentistry-programme-summary"] {
+    display: none;
+}
+
+html[cro-datapath="/"] .cre-t-112-registerBtn-inner a.elementor-button:hover,
+html[cro-datapath*="/dental-courses/"] .cre-t-112-registerBtn-inner a.elementor-button:hover {
+    color: #007EA8 !important;
+    border-color: #007EA8 !important;
+}
+
+html body.cro-ldi-ki112 span.cro-required {
+    color: #8d2929;
+    position: relative;
+    left: 5px;
+}
+
+html body.cro-ldi-ki112 .convert-gf-form .cgf-radio {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 5px 0;
+}
+
+
+@media (max-width:767px) {
+    html body.cro-ldi-ki112 .convert-gf-form .cgf-radio span {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    html body.cro-ldi-ki112 .convert-gf-form .cgf-radio {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+}
+
+
+/* color: #007EA8;
+    border-color: #007EA8; */
+/* cro-datapath*="/aesthetic-restorative-dentistry/" */
+/* cro-datapath*="/orthodontics-dentofacial-orthopaedics/" */
